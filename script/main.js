@@ -21,7 +21,6 @@ function condition() {
     if (input.value) {
         arr.push(obj = {
             text: input.value,
-            able: false
         })
         renderTodos();
     }
